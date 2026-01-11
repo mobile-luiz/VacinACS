@@ -6,20 +6,29 @@ Aplicativo Android para profissionais de saúde, focado no controle de ciclos va
 
 📅 Agenda de Vacinação: Visualização e agendamento inteligente da próxima dose baseado no calendário brasileiro.
 
-🏠 Gestão de Visitas ACS: Registro e notificações para acompanhamento domiciliar de pacientes.
+🏠 Visitas ACS: Registro e notificações de visitas domiciliares para acompanhamento de pacientes.
 
 🔄 Sincronização Híbrida: Funcionamento offline com persistência local e sincronização automática com Firebase.
 
-🛠️ Status Dinâmico: Controle total entre doses Pendentes, Agendadas, Aplicadas ou Canceladas.
+🛠️ Status Dinâmico: Controle entre doses Pendentes, Agendadas, Aplicadas ou Canceladas.
 
 🛠️ Tecnologias Utilizadas
-Linguagem: Kotlin
-
-Assincronia: Coroutines & LifecycleScope para operações não bloqueantes.
+Linguagem: Kotlin (Coroutines & LifecycleScope).
 
 Banco de Dados: Room (Local) e Firebase Realtime Database (Nuvem).
 
-Notificações: Sistema de alertas para lembretes de vacinas e visitas agendadas.
+Notificações: Alertas configurados para lembretes de vacinas e visitas agendadas.
+
+🚀 Configuração Necessária
+Para que a sincronização em nuvem e as notificações funcionem, é obrigatório:
+
+Criar um projeto no Firebase Console.
+
+Adicionar um app Android ao projeto com o pacote com.vacinas.vacina.
+
+Baixar o arquivo google-services.json.
+
+Colar o arquivo na pasta: app/ (diretório raiz do módulo do aplicativo).
 
 📂 Estrutura de Código
 FormularioVacinaActivity: Interface de registro e lógica de agendamento imediato.
