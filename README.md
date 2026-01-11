@@ -38,6 +38,10 @@ VaccineScheduler: Motor de regras para sequência de doses (ex: Penta -> DTP).
 FirebaseSyncManager: Gerenciador de integridade e sincronismo de dados.
 
 
+## ⚖️ Autoria e Licença
+Este projeto foi desenvolvido por **[JOSE LUIZ VICENTE]**. 
+Todos os direitos reservados. A cópia, distribuição ou uso não autorizado deste código é proibida.
+
 
 
 
