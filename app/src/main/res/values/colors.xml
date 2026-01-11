@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="background_dark">#2E396A</color>
+    <color name="block_info_blue">#0C4B82</color>
+    <color name="header_dark">#1C2140</color>
+    <color name="accent_success">#39FF39</color>
+    <color name="accent_warning">#FFC107</color>
+    <color name="accent_danger">#CE2D4D</color>
+    <color name="text_light_blue">#A0FFFF</color>
+    <color name="status_pending">#FF5722</color>
+</resources>

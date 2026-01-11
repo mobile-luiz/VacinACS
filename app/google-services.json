@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "276682976065",
+    "project_id": "vacina-b066d",
+    "storage_bucket": "vacina-b066d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276682976065:android:344b631d3db4dae5a84fc0",
+        "android_client_info": {
+          "package_name": "com.vacinas.vacina"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhqhlTB-47me5fJWoRTKz6nEBfz8jNoFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

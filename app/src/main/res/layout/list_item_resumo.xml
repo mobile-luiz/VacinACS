@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"  android:paddingVertical="12dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/icon_marker"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:tint="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/text_mes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/icon_marker"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="Novembro/25"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/text_contagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="+2 Doses"
+        android:layout_centerVertical="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/text_mes"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@id/icon_marker"
+        android:background="#EEEEEE"/>
+
+</RelativeLayout>

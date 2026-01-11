@@ -1,0 +1,126 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginHorizontal="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="?android:attr/selectableItemBackground">
+
+        <View
+            android:id="@+id/status_indicator_bar"
+            android:layout_width="6dp"
+            android:layout_height="0dp"
+            android:background="#4CAF50"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/text_paciente_nome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="#333333"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@id/text_data"
+            app:layout_constraintStart_toEndOf="@id/status_indicator_bar"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="👤 Paciente: José Eluiz luizfnb" />
+
+        <TextView
+            android:id="@+id/text_vacina_nome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/text_data"
+            app:layout_constraintStart_toEndOf="@id/status_indicator_bar"
+            app:layout_constraintTop_toBottomOf="@id/text_paciente_nome"
+            tools:text="💉 Pneumocócica 10V (conjugada)" />
+
+        <TextView
+            android:id="@+id/text_dose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="#555555"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@id/text_vacina_nome"
+            app:layout_constraintTop_toBottomOf="@id/text_vacina_nome"
+            app:layout_constraintEnd_toStartOf="@id/text_data"
+            tools:text="🔢 1ª Dose" />
+
+        <TextView
+            android:id="@+id/text_lote"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@id/text_vacina_nome"
+            app:layout_constraintTop_toBottomOf="@id/text_dose"
+            app:layout_constraintEnd_toStartOf="@id/text_data"
+            tools:text="📦 Lote: ABC123XYZ" />
+
+        <TextView
+            android:id="@+id/text_lab_produt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@id/text_vacina_nome"
+            app:layout_constraintTop_toBottomOf="@id/text_lote"
+            app:layout_constraintEnd_toStartOf="@id/text_data"
+            tools:text="🏭 Lab.Produt: FIOCRUZ" />
+
+        <TextView
+            android:id="@+id/text_unidade"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@id/text_vacina_nome"
+            app:layout_constraintTop_toBottomOf="@id/text_lab_produt"
+            app:layout_constraintEnd_toStartOf="@id/text_data"
+            tools:text="🏥 Unidade: UBS Central" />
+
+        <TextView
+            android:id="@+id/text_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:textColor="#3F51B5"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:gravity="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/text_paciente_nome"
+            tools:text="📅 17/02/2025" />
+
+        <TextView
+            android:id="@+id/text_data_proxima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="#FF9800"
+            android:textSize="12sp"
+            android:gravity="end"
+            app:layout_constraintEnd_toEndOf="@id/text_data"
+            app:layout_constraintTop_toBottomOf="@id/text_data"
+            tools:text="🗓️ Próxima: 10/03/2026" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
