@@ -44,10 +44,10 @@ Todos os direitos reservados. A cópia, distribuição ou uso não autorizado de
 
 
 
-
-
 <img width="200" height="600" alt="Screenshot_20260111_120051" src="https://github.com/user-attachments/assets/3fdeaa3a-f7fb-4e3c-bcf7-9776812c84e3" />
 <img width="200" height="600" alt="Screenshot_20260111_120339" src="https://github.com/user-attachments/assets/0ef812e0-8fef-4e67-922a-33d930a3a6a9" />
 <img width="200" height="600" alt="Screenshot_20260111_120522" src="https://github.com/user-attachments/assets/c279adfb-c4d9-46fd-95e5-351e5147c731" />
 <img width="200" height="600" alt="Screenshot_20260111_120709" src="https://github.com/user-attachments/assets/dbc4cb42-b42f-4370-ad5f-dfd64a079113" />
 <img width="200" height="600" alt="Screenshot_20260111_121508" src="https://github.com/user-attachments/assets/261ccc1e-9468-4f25-b442-cbde27a512ac" />
+<img width="200" height="600" alt="Screenshot_20260111_121733" src="https://github.com/user-attachments/assets/5a3c681d-8dfe-4dc4-925e-b8ebee1868b1" />
+
